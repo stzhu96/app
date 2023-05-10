@@ -8,6 +8,7 @@ import numpy as np
 from skimage.feature import graycomatrix, graycoprops
 
 app = dash.Dash(__name__)
+server-app.server
 
 app.layout = html.Div([
     html.H1("GLCM特征展示"),
