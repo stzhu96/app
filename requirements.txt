@@ -4,3 +4,5 @@ dash-html-components==2.0.0
 numpy==1.21
 opencv-python==4.4.0.42
 scikit-image
+gunicorn
+pandas
