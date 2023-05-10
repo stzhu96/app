@@ -8,7 +8,7 @@ import numpy as np
 from skimage.feature import graycomatrix, graycoprops
 
 app = dash.Dash(__name__)
-server-app.server
+server - app.server
 
 app.layout = html.Div([
     html.H1("GLCM特征展示"),
@@ -98,4 +98,4 @@ def update_output_glcms(contents):
             html.P(f'Contrast(对比度)：{features[5][3]:.4f}'),
         ])
 if __name__ == '__main__':
-    app.run_server(debug=True,port=8091)
+    app.run_server(debug=False)
